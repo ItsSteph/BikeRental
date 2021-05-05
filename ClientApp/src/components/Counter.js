@@ -13,12 +13,14 @@ export class Counter extends Component {
     this.setState({
       currentCount: this.state.currentCount + 1
     });
-  }
+    }
 
   render() {
-    return (
+      return (
+      
+
       <div>
-        <h1>Stephanie är awesome</h1>
+        <h1>Guzal är awesome</h1>
 
         <p>This is a simple example of a React component.</p>
 
