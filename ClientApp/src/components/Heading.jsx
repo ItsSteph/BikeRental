@@ -46,7 +46,7 @@ function Heading() {
                                 <label><i class="icon"></i> Antal</label>
                                 <input class="" type="number" value="0" name="bikeNrs" min="0" max="6" />
                             </div>
-                        <button class="button" type="submit"><i class=" margin-right"></i> SÖKA</button>
+                <button className="button" type="submit" style={{ backgroundColor: "#3f51b5"}}><i className=" margin-right"></i> SÖKA</button>
                     </form>
                 </div>
             </div>

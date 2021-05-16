@@ -10,6 +10,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 .button {
     border: none;
     display: inline-block;
@@ -19,6 +20,7 @@
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
+    background-color: #3f51b5;
 }
 
 .background-image {

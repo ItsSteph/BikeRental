@@ -15,15 +15,12 @@
   }
 }
 
-.text-dark {
-  color: white;
-}
+
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.0);
 }
 
 .ng-white {
     background-color: #3f51b5;
-    color: white;
 }
 
