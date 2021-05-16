@@ -2,11 +2,17 @@
     box-sizing: border-box;
 }
 
-.body-about {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    padding: 130px;
+.dininfo-wrap {
+    width: 100%;
+    margin: auto;
+    height: 1199px;
+    max-width: 625px;
+    min-height: 625px;
+    position: relative;
+    background: url(https://www.xxl.se/content/images/d1eae533f3e0543c65a407afb2e320ad7f1256bf-1332x540.png?auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&w=1000&h=500) center;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
+
 
 /* Style the header */
 .header-about {
@@ -37,72 +43,109 @@
 
 input[type=number], select {
     width: 100%;
+    color: #aaa;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
 }
 
 input[type=tel], select {
     width: 100%;
+    color: #aaa;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
+}
+
+.others {
+    color: black;
+}
+.text {
+    color: #aaa;
+}
+
+.text-white {
+    color: white;
+}
+
+.cykel {
+    width: 100%;
+    color: #aaa;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
 }
 
 input[type=email], select {
     width: 100%;
+    color: #aaa;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
 }
 
 input[type=date], select {
     width: 100%;
+    color: #aaa;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
 }
 
 input[type=text], select {
     width: 100%;
+    color: #aaa;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
 }
 
 input[type=submit] {
-    width: 50%;
-    background-color: royalblue;
+    width: 100%;
+    background-color: #1161ee;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    padding: 15px 20px;
+    border-radius: 25px;
     cursor: pointer;
+}
+input[type=checkbox] {
+    color: #fff;
+    border-color: #1161ee;
+    background-color: #1161ee;
 }
 
     input[type=submit]:hover {
-        background-color: steelblue;
+        background-color: #1161ee;
     }
 
 .vid {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
     width: 50%;
     margin: auto;

@@ -6,53 +6,70 @@ import './BookingInformation.css'
 
 
 function BookingInformation() {
-    return (
-      <div>
-        <body className="body-about">
-                <h1 className="h1-about">
-                    Din information
-                </h1>
-                <div className="vid">
-                    <form action="/action_page.php">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+  return (
+		<div>
+			<body>
+				<div class="dininfo-wrap">
+					<div class="login-html">
+						<input id="tab-1" type="radio" name="tab" class="sign-in" checked /><label for="tab-1" class="tab">Din information</label>
 
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+						<div class="login-form">
+							<div class="sign-in-htm">
+								<div class="group">
+									<label for="fname" className="text">First Name</label>
+									<input type="text" id="fname" name="firstname" placeholder="Your name.." />
+								</div>
+								<div class="group">
+									<label for="lname" className="text">Last Name</label>
+									<input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+								</div>
+								<div class="group">
+									<label for="phone" className="text">Mobilnummer</label>
+									<input type="tel" id="text" name="tel" placeholder="0XX XXX-XX-XX" />
+								</div>
+								<div class="group">
+									<label for="email" className="text">Email</label>
+									<input type="email" id="email" name="email" placeholder="mail@mail.com" />
+								</div>
+								<div>
+									<label for="cykeltyp" className="text">Cykeltyp</label><br />
+									<select className="cykel" id="cykeltyp" name="cykeltyp">
+										<option value="Mountainbike" className="others">Mountainbike</option>
+										<option value="Elcykel" className="others">Elcykel</option>
+										<option value="Stadscykel" className="others">Stadscykel</option>
+									</select>
+								</div>
+								<div class="group">
+									<label for="antal" className="text">Antal</label>
+									<input type="number" id="antal" name="antal" /><br />
+								</div>
+								<div class="group">
+									<label for="rent" className="text">Hyras från:</label>
+									<input type="date" id="rent" name="rent" />
+								</div>
+								<div class="group">
+									<label for="lämnar" className="text">Inlämningsdatum: </label><br />
+									<input type="date" id="dropdate" name="dropdate" value />
+								</div>
+								<div class="group">
+									<label for="confirmation" className="text-white" >Send confirmation via email </label>
+									<input type="checkbox" id="email" name="email" value="" /><br />
+								</div>
+								<div class="group">
+									<label for="confirmation" className="text-white" >Send confirmation via Sms </label>
+								<input type="checkbox" id="email" name="email" value="" /><br />
 
-                        <label for="phone">Mobilnummer</label>
-                        <input type="tel" id="text" name="tel" placeholder="0XX XXX-XX-XX" />
-
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="mail@mail.com" />
-
-                        <label for="cykeltyp">Cykeltyp</label>
-                        <select id="cykeltyp" name="cykeltyp">
-                            <option value="Mountainbike">Mountainbike</option>
-                            <option value="Elcykel">Elcykel</option>
-                            <option value="Stadscykel">Stadscykel</option>
-                        </select>
-
-                        <label for="antal">Antal</label>
-                        <input type="number" id="antal" name="antal" /><br />
-
-                        <label for="rent">Hyras från:</label>
-                        <input type="date" id="rent" name="rent" />
-
-                        <label for="lämnar">Inlämningsdatum: </label><br />
-                        <input type="date" id="dropdate" name="dropdate" value /><br /><br />
-
-                        <label for="confirmation">Send confirmation via email </label>
-                        <input type="checkbox" id="email" name="email" value="" /><br />
-
-                        <label for="confirmation">Send confirmation via Sms </label>
-                        <input type="checkbox" id="email" name="email" value="" /><br />
-
-                        <input type="submit" id="submit" name="Submit" value="Boka" />
-                    </form>
-                </div>
-            </body>
-        </div>
+								<div class="group">
+									<input type="submit" id="submit" name="Submit" value="Boka" />
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</body>
+		</div>
+      
     );
 }
 export default BookingInformation;
